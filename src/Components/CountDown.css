@@ -1,0 +1,108 @@
+#count-input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    transition: 0.3s;
+}
+
+#countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    gap: 10px;
+}
+
+#display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    gap: 10px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #686565;
+    padding: 10px;
+}
+
+#submit{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    transition: 0.3s;
+}
+#submit:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #333; */
+    color:  white;
+    padding: 10px;
+}
+li {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #333; */
+    padding: 10px;
+    margin: 10px;
+    /* border: 2px solid #ccc; */
+    /* border-radius: 4px; */
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.value{
+    font-size: 50px;
+    font-weight: bold;
+    /* color: #333; */
+}
+#reset{
+    background-color: #f44336;
+    color: white;
+    padding: 16px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    transition: 0.3s;
+}
+#reset:hover {
+    background-color: #c7483f;
+}
